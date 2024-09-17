@@ -1,13 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+
+*{
+    font-family: Sofadi One;
+}
+
+*::selection{
+    background-color: white;
+    color: black;
+}
+
 body{
     margin: 0;
     padding: 0;
+    background-color: black;
+    color: white;
 }
 
 main{
     width: 50%;
     margin: auto;
     margin-top: 10px;
-    border: 2px solid black;
+    border: 2px solid white;
     text-align: center;
 }
 
@@ -22,7 +36,10 @@ main{
 #mezo{
     width: 100px;
     height: 100px;
-    border: 2px solid black;
-    text-align: center;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50pt;
+    font-family: Kolker Brush;
 }
-

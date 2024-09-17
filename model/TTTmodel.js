@@ -32,4 +32,8 @@ export default class TTTmodel{
         return this.list_
     }
 
+    Ellenorzes(){
+        //Ide fog majd kerülni az ellenőrzés
+    }
+
 }
